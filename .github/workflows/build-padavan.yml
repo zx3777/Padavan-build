@@ -40,7 +40,7 @@ jobs:
       run: |
         cd /opt/hostedtoolcache/go
         rm -rf /opt/hostedtoolcache/go/1.14.14
-        mv 1.16.6 1.14.14
+        mv 1.17rc1 1.14.14
     - name: Build Firmware
       env:
         TNAME: K2P
